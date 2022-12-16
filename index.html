@@ -3,10 +3,12 @@
     <head>
         <meta charset="utf-8">
         <title>Home Page</title>
+        <link rel="stylesheet" href="./Styles/color.css">
+        <link rel="stylesheet" href="./Styles/formatting.css">
     </head>
     <body>
         <header>
-            <img src="./img/homeBanner_1600.png"
+            <img id = "Banner" src="./img/homeBanner_1600.png"
             alt="Home Banner"
             srcset="./img/homeBanner_1600.png 1600w,
                     ./img/homeBanner_1200.png 1200w,
@@ -17,10 +19,10 @@
         <nav>
             <table>
                 <tr>
-                    <td>
+                    <td class="Box-Center">
                         <a href="./basics.html">Card Basics</a>
                     </td>
-                     <td>
+                     <td class="Box-Center">
                         <a href="./abilities.html">Card Abilities</a>
                     </td>
                 </tr>
@@ -28,33 +30,37 @@
         </nav>
         <main>
             <h2>Introduction</h2>
-            <img src="./img/atsushi_672.jpg"\
-            alt="Atushi, the Blazing Sky"
-            srcset="./img/atsushi_672.jpg 672w,
-                    ./img/atsushi_472.png 472w,
-                    ./img/atsushi_272.png 272w"
-            sizes="15vw">
-            <p>
-                This is Atsushi, the Blazing Sky from one of Magic the Gather newer sets Kamigawa: Neon Dynasty. With this simple hand book you will be able to read and properly
-                understand how this card works. So let's get started head over to the Basics page to learn the basics of cards or head to the Abilites page to learn more about card abilities.
-            </p>
-
+            <div class="Flex">
+                <img class="Flex Main-img" src="./img/atsushi_672.jpg"\
+                alt="Atushi, the Blazing Sky"
+                srcset="./img/atsushi_672.jpg 672w,
+                        ./img/atsushi_472.png 472w,
+                        ./img/atsushi_272.png 272w"
+                sizes="15vw">
+                <p class="Flex-Main">
+                    This is Atsushi, the Blazing Sky from one of Magic the Gather newer sets Kamigawa: Neon Dynasty. With this simple hand book you will be able to read and properly
+                    understand how this card works. So let's get started head over to the Basics page to learn the basics of cards or head to the Abilites page to learn more about card abilities.
+                </p>
+            </div>
 
 
 
             <br>
             <h2>How To Play in 5 Min</h2>
-            <iframe width="560" height="315" 
-            src="https://www.youtube.com/embed/RZyXU1L3JXk" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write;
-            encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-            <p>
+            <center>  
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/RZyXU1L3JXk" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </center>
+            <p class="Flex-Box-Center">
                 This video goes over the basics in just 5 min. You can watch this to learn and then referback to this hand book for reminders on what abilities and basics do.
             </p>
         </main>
         <footer>
+            <br>
             <a href="./index.html">Home</a>
             <p>Author: Logan</p>
             <p><a href="mailto:lep00711@vsc.edu">lep00711@vsc.edu</a></p>
