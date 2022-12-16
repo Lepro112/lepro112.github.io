@@ -1,0 +1,42 @@
+body {
+    background-color: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+a:hover, a:focus{
+    background-color: white;
+  }
+
+a:visited {
+    color: black;
+ }
+
+.Box-Center {
+    border: 1px solid black;
+}
+
+iframe {
+    box-shadow: 5px 10px #888888;
+}
+#Banner {
+    box-shadow: 5px 10px #888888;
+}
+
+.Box{
+    border: 1px solid black;
+}
+
+footer{
+    border: 1px solid black;
+}
+tr > td {
+    border: 1px solid black;
+}
+
+img {
+    box-shadow: 5px 10px #888888;
+}

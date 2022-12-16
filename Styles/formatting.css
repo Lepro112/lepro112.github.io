@@ -1,0 +1,125 @@
+
+#Banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+nav > table {
+    grid-column: 3;
+    grid-row: 2;
+    
+}
+
+td > a {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+div.Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+div.Grid > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.Grid > img + p {
+    font-size: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.Box-Center{
+    text-align: center;
+}
+
+.Flex-Box-Center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+footer {
+    
+    font-size: .8em;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.Flex {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+img.Flex {
+    margin-right:15px;
+    margin-left: 15px;
+    height: 10%;
+}
+p.Flex{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-left: 100px;
+
+}
+
+h2.Flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.Main-img {
+    width: 25%;
+}
+
+p.Flex-Main{
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin-left: 75px;
+    text-align: center;
+
+}
+
+
+
